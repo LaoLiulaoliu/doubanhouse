@@ -12,8 +12,9 @@ environment setup
 ```
 pip install -r requirements.txt
 python doubanhourse.py
-python manage.py runserver
+python manage.py migrate 
 python manage.py createsuperuser
+python manage.py runserver
 ```
 access: http://127.0.0.1:8000/admin
 
